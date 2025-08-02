@@ -1,0 +1,97 @@
+.parent{
+  border: 20px solid black;
+  border-radius: 14px;
+  width: 800px;
+  margin: 5%;
+}
+
+.nav-box{
+  background-color: grey;
+  height: 100px;
+  width: 100%;
+  display: flex;
+}
+
+.r-red{
+  background-color: red;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+}
+
+.r-yellow{
+  background-color: yellow;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.r-green{
+  background-color: green;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+}
+
+.f-row{
+  display: flex;
+}
+
+.red-box1{
+  background-color: red;
+  height: 130px;
+  width: 70%;
+  margin: 20px;
+}
+
+.red-box2{
+  background-color: red;
+  height: 130px;
+  width: 30%;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.s-row{
+  display: flex;
+}
+
+.yellow-box{
+  background-color: yellow;
+  height: 340px;
+  width: 330px;
+  margin: 20px;
+  margin-top: 0px;
+}
+
+.violet-box{
+  background-color: violet;
+  height: 160px;
+  width: 450px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.t-row{
+  display: flex;
+}
+
+.blue-box{
+  background-color: blue;
+  height: 110px;
+  width: 30%;
+  margin: 20px;
+  margin-top: 0px;
+}
+
+.blue-box1{
+  background-color: blue;
+  height: 110px;
+  width: 40%;
+  margin-bottom: 20px;
+}
