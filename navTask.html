@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        *{
+            box-sizing: border-box;
+
+        }
+
+        body{
+            margin: 0;
+        }
+        /* .main{
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr 2fr;
+        }
+        home{
+            grid-column-start: 0;
+            grid-column-end: 1;
+        } */
+
+        .main{
+            display: flex;
+            height: 50px;
+            width: 100%;
+        }
+
+        .home{
+            display: flex;
+            width: 5%;
+            height: 100%;
+            background-color: brown;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .News,.About{
+            display: flex;
+            width: 5%;
+            height: 100%;
+            background-color: green;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .Contact{
+            display: flex;
+            width: 85%;
+            height: 100%;
+            background-color: green;
+            text-align: left;
+            /* justify-content: center; */
+        }
+
+        p{
+            color: white;
+            /* margin: 1vw; */
+            /* padding: 2%; */
+        }
+
+        @media screen and (max-width: 800px) {
+
+            .main{
+                display: block;
+            }
+            .home,.News,.Contact,.About{
+                margin: 0px;
+                width: 100%;
+                justify-content: center;
+            }
+
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="home">
+            <p>Home</p>
+        </div>
+
+        <div class="News">
+            <p>News</p>
+        </div>
+
+        <div class="Contact">
+            <p>Contact</p>
+        </div>
+
+        <div class="About">
+            <p>About</p>
+        </div>
+
+    </div>
+</body>
+</html>
