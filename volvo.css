@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+}
+
+header{
+    position: sticky;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+ul li{
+    display: inline;
+}
+
+.nav-btn{
+    background-color: transparent;
+    height: 40px;
+    width: 80px;
+    border: none;
+    font-size: 15px;
+}
+
+.nav-btn:hover{
+    background-color: rgb(228, 213, 213);
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+}
+
+.booktestbar{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+}
+
+.first-image{
+    display: flex;
+    justify-content: end;
+    color: white;
+    margin: 0;
+    width: 100%;
+    height: 620px;
+    background-image: url('image1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.explore{
+    margin-top: 160px;
+    margin-right: 5%;
+    width: 300px;
+    height: 300px;
+    text-align: end;
+}
+
+.explore-btn{
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 45px;
+    background-color: rgb(249, 243, 243);
+    color: black;
+}
+
+.services{
+    justify-content: center;
+    padding: 20px;
+    height: 400px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+}
+
+.service-list{
+    height: 300px;
+    width: 100%;
+    margin-left: 10px;
+}
